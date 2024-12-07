@@ -1,0 +1,16 @@
+astro-webapp/
+├── backend/
+│   ├── app.py                  # Flask/FastAPI application
+│   ├── kundali_calculator.py   # Core logic for Kundali generation
+│   ├── chatbot.py              # AI-driven chatbot logic
+│   ├── templates/
+│   │   ├── index.html          # Main frontend page
+│   └── static/
+│       ├── styles.css          # Custom CSS for styling
+│       └── app.js              # Frontend interactivity
+├── database/
+│   └── models.py               # User and Kundali database models
+├── chatbot_model/
+│   └── rasa_files/             # Chatbot training files
+├── requirements.txt            # Python dependencies
+├── README.md                   # Documentation
